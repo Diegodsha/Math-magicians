@@ -11,8 +11,4 @@ const App = props => {
     )
 }
 
-// App.propTypes = {
-
-// }
-
 export default App
