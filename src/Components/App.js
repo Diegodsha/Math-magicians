@@ -6,7 +6,7 @@ const App = props => {
     return (
         <Fragment>
             <Display />
-            {/* <ButtonPanel /> */}
+            <ButtonPanel />
         </Fragment>
     )
 }
