@@ -1,14 +1,12 @@
-import React, { Fragment } from 'react'
-import {Display} from './Display'
-import {ButtonPanel} from './ButtonPanel'
+import React from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
-const App = props => {
-    return (
-        <Fragment>
-            <Display />
-            <ButtonPanel />
-        </Fragment>
-    )
-}
+const App = () => (
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
+);
 
-export default App
+export default App;
