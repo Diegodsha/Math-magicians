@@ -1,3 +1,5 @@
+import operate from './Operate';
+
 const calculate = (calcDataObject, btnName) => {
   const { total, next, operation } = calcDataObject;
 
@@ -21,7 +23,6 @@ const calculate = (calcDataObject, btnName) => {
         next: `${next * -1}`,
         operation: null,
       };
-
     case '%':
       if (total) {
         return {
@@ -39,21 +40,48 @@ const calculate = (calcDataObject, btnName) => {
     case '+':
     case '-':
     case 'X':
-    case '/':
+    case '÷':
       if (total && next) {
         return {
           total: operate(total, next, operation),
           next,
-          operation:btnName,
+          operation: btnName,
         };
       }
       return {
         total,
+        next: null,
+        operation: null,
       };
 
-    default:
-      if (0) return 0;
+    case '.':
+      if (total) {
+        return {
+          total: `${total}.`,
+          next,
+          operation,
+        };
+      }
+      if (next) {
+        return {
+          total,
+          next: `${next}.`,
+          operation,
+        };
+      }
+      return {
+        total: '0.',
+        next,
+        operation,
+      };
 
+    case '=':
+      return {
+        total: operate(total, next, operation),
+        next: null,
+        operation: null,
+      };
+    default:
       return {
         total,
         next,
@@ -61,3 +89,5 @@ const calculate = (calcDataObject, btnName) => {
       };
   }
 };
+
+export default calculate;
