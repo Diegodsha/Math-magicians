@@ -26,7 +26,7 @@ export default class App extends Component {
     // const result = next ? next && next.toString() : total && total.toString();
     return (
       <>
-        <Display result={total || next || '0'} operation={operation} />
+        <Display result={next || total || '0'} operation={operation} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );
