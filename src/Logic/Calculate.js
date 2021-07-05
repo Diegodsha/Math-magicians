@@ -41,18 +41,18 @@ const calculate = (calcDataObject, btnName) => {
     case '-':
     case 'X':
     case '÷':
-      if (total && next) {
-        return {
+      //   console.log(btnName);
+      return next && operation
+        ? {
           total: operate(total, next, operation),
-          next,
+          next: null,
+          operation: btnName,
+        }
+        : {
+          total,
+          next: null,
           operation: btnName,
         };
-      }
-      return {
-        total,
-        next: null,
-        operation: null,
-      };
 
     case '.':
       if (total) {
@@ -82,6 +82,17 @@ const calculate = (calcDataObject, btnName) => {
         operation: null,
       };
     default:
+      console.log(btnName);
+      console.log('next:', next);
+      if (operation) {
+        console.log('next:', next);
+        return {
+          total,
+          next: next || btnName,
+          operation,
+        };
+      }
+
       return {
         total: total || btnName,
         next,
