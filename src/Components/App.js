@@ -12,18 +12,14 @@ export default class App extends Component {
       next: null,
       operation: null,
     };
-
-    // this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (buttonName) => {
-    // const { calculation } = calculate(this.state, buttonName);
     this.setState((prevState) => calculate(prevState, buttonName));
   };
 
   render() {
     const { total, next, operation } = this.state;
-    // const result = next ? next && next.toString() : total && total.toString();
     return (
       <>
         <Display result={next || total || '0'} operation={operation} />

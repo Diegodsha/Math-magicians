@@ -98,7 +98,6 @@ const calculate = (calcDataObject, btnName) => {
 
     default:
       if (operation) {
-        console.log(operation);
         return {
           total,
           next: next ? checkDot(next, btnName) : btnName,
