@@ -83,7 +83,7 @@ const calculate = (calcDataObject, btnName) => {
       };
     default:
       return {
-        total,
+        total: total || btnName,
         next,
         operation,
       };
