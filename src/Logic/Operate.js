@@ -17,7 +17,7 @@ const operate = (num1, num2, operation) => {
         return 'Is not possible to divide by 0';
       }
     default:
-      return 0;
+      return '0';
   }
 };
 
