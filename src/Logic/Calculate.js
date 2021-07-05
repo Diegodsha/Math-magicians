@@ -3,6 +3,15 @@ import operate from './Operate';
 const calculate = (calcDataObject, btnName) => {
   const { total, next, operation } = calcDataObject;
 
+  const checkDot = (num, nextNum) => {
+    if (num.includes('.') && !num.includes('e')) return `${num}${nextNum}`;
+    const currentNum = Number(num).toPrecision();
+    const output = currentNum + nextNum;
+    return (output.length > 12)
+      ? Number(output).toExponential(8)
+      : output;
+  };
+
   switch (btnName) {
     case 'AC':
       return {
@@ -41,31 +50,30 @@ const calculate = (calcDataObject, btnName) => {
     case '-':
     case 'X':
     case '÷':
-      if (total && next) {
-        return {
+      return next && operation
+        ? {
           total: operate(total, next, operation),
-          next,
+          next: null,
+          operation: btnName,
+        }
+        : {
+          total,
+          next: null,
           operation: btnName,
         };
-      }
-      return {
-        total,
-        next: null,
-        operation: null,
-      };
 
     case '.':
-      if (total) {
-        return {
-          total: `${total}.`,
-          next,
-          operation,
-        };
-      }
       if (next) {
         return {
           total,
-          next: `${next}.`,
+          next: next.includes('.') ? next : `${next}.`,
+          operation,
+        };
+      }
+      if (total) {
+        return {
+          total: total.includes('.') ? total : `${total}.`,
+          next,
           operation,
         };
       }
@@ -76,14 +84,29 @@ const calculate = (calcDataObject, btnName) => {
       };
 
     case '=':
-      return {
-        total: operate(total, next, operation),
-        next: null,
-        operation: null,
-      };
+      return operation && next
+        ? {
+          total: operate(total, next, operation),
+          next: null,
+          operation: null,
+        }
+        : {
+          total,
+          next: null,
+          operation: null,
+        };
+
     default:
+      if (operation) {
+        return {
+          total,
+          next: next ? checkDot(next, btnName) : btnName,
+          operation,
+        };
+      }
+
       return {
-        total,
+        total: total ? checkDot(total, btnName) : btnName,
         next,
         operation,
       };
