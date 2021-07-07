@@ -91,7 +91,7 @@ This project is [MIT](./MIT.md) licensed.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Master-calculator](https://master-calculator.herokuapp.com/)
 
 
 ## Getting Started
