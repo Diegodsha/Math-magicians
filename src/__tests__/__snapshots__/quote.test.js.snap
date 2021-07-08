@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component Renders correctly Quote component 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "margin": "auto",
+      "maxWidth": "537px",
+    }
+  }
+>
+  <img
+    alt="quote"
+    className="card-img-top"
+    src="quote.jpg"
+  />
+  <div
+    className="card-body"
+  >
+    <blockquote
+      className="blockquote mb-0"
+    >
+      <p>
+        Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+      </p>
+      <footer
+        className="blockquote-footer"
+      >
+        Shakuntala Devi
+        <cite
+          title="Source Title"
+        >
+           - Indian writer and mental calculator
+        </cite>
+      </footer>
+    </blockquote>
+  </div>
+</div>
+`;
