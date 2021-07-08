@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-Visit [Calculator](https://master-calculator.herokuapp.com)
+Visit [Calculator](https://math-magic-react.herokuapp.com/)
 
 ## Prerequisites
 
