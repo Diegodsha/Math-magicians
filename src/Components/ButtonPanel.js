@@ -7,32 +7,32 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <>
-      <div>
-        <Button name="AC" clickHandler={handleClick} />
+      <div style={{ height: '100px' }}>
+        <Button name="AC" clickHandler={handleClick} color="#f72020" />
         <Button name="+/-" clickHandler={handleClick} />
         <Button name="%" clickHandler={handleClick} />
         <Button name="÷" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="7" clickHandler={handleClick} />
-        <Button name="8" clickHandler={handleClick} />
-        <Button name="9" clickHandler={handleClick} />
+      <div style={{ height: '100px' }}>
+        <Button name="7" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="8" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="9" clickHandler={handleClick} color="#d7d7d7" />
         <Button name="X" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="4" clickHandler={handleClick} />
-        <Button name="5" clickHandler={handleClick} />
-        <Button name="6" clickHandler={handleClick} />
+      <div style={{ height: '100px' }}>
+        <Button name="4" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="5" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="6" clickHandler={handleClick} color="#d7d7d7" />
         <Button name="-" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="1" clickHandler={handleClick} />
-        <Button name="2" clickHandler={handleClick} />
-        <Button name="3" clickHandler={handleClick} />
+      <div style={{ height: '100px' }}>
+        <Button name="1" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="2" clickHandler={handleClick} color="#d7d7d7" />
+        <Button name="3" clickHandler={handleClick} color="#d7d7d7" />
         <Button name="+" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="0" clickHandler={handleClick} />
+      <div style={{ height: '100px' }}>
+        <Button name="0" clickHandler={handleClick} color="#d7d7d7" wide="true" />
         <Button name="." clickHandler={handleClick} />
         <Button name="=" clickHandler={handleClick} />
       </div>
