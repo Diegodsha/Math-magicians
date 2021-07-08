@@ -3,14 +3,14 @@
 >React website aimed at mathematics.
 
 <p align="center">
-  <a href="https://github.com/Diegodsha/Master-calculator/issues">
-  <img src="https://img.shields.io/github/issues-raw/Diegodsha/Master-calculator?style=for-the-badge"
+  <a href="https://github.com/Diegodsha/Math-magicians/issues">
+  <img src="https://img.shields.io/github/issues-raw/Diegodsha/Math-magicians?style=for-the-badge"
        alt="Issues"></a>
-   <a href="https://github.com/Diegodsha/Master-calculator/pulls">
-  <img src="https://img.shields.io/github/issues-pr/Diegodsha/Master-calculator?style=for-the-badge"
+   <a href="https://github.com/Diegodsha/Math-magicians/pulls">
+  <img src="https://img.shields.io/github/issues-pr/Diegodsha/Math-magicians?style=for-the-badge"
        alt="Pull Requests"></a>
-   <a href="https://github.com/Diegodsha/Master-calculator/blob/develop/LICENSE">
-  <img src="https://img.shields.io/github/license/Diegodsha/Master-calculator?style=for-the-badge"
+   <a href="https://github.com/Diegodsha/Math-magicians/blob/develop/LICENSE">
+  <img src="https://img.shields.io/github/license/Diegodsha/Math-magicians?style=for-the-badge"
        alt="License"></a>
 </p>
 
