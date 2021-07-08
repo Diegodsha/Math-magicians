@@ -1,6 +1,6 @@
-# Master Calculator
+# Math Magicians
 
->React calculator app that supports every basic arithmetic operation of a calculator.
+>React website aimed to mathematics.
 
 <p align="center">
   <a href="https://github.com/Diegodsha/Master-calculator/issues">
@@ -14,15 +14,17 @@
        alt="License"></a>
 </p>
 
-
-<img width="558" alt="calculator" src="https://user-images.githubusercontent.com/70416006/124183321-aa6d7780-da7d-11eb-8be5-4ace70a311a5.png">
+## Sneak peak
+![Math-home](https://user-images.githubusercontent.com/70416006/124972294-c9c15300-dfef-11eb-837b-2c450929b993.png)
+![math-calc](https://user-images.githubusercontent.com/70416006/124972288-c8902600-dfef-11eb-9486-f052314a31b3.png)
+![math-quote](https://user-images.githubusercontent.com/70416006/124972283-c7f78f80-dfef-11eb-83e9-160659c84a53.png)
 
 ## Built With
 
 
 - Node.js
 - React
-- npm
+- Npm
 - Javascript ES6+
 - Big.js
 - Jest
@@ -30,7 +32,7 @@
 
 ### Description
 
-    Calculator built with react that supports every basic arithmetic operation.
+    React website aimed to mathematics with an integrated calculator that supports every basic arithmetic operation.
 
 ## Live Demo
 
@@ -55,7 +57,15 @@ Visit [Calculator](https://master-calculator.herokuapp.com)
 ### Usage
 
 - From within the project directory run `npm start` to start a local server in your web browser.
-- Visit `http://localhost:3000/`
+- Available Paths:
+ - Visit `http://localhost:3000/` for Home view
+ - Visit `http://localhost:3000/calculator` for Calculator view
+ - Visit `http://localhost:3000/quote` for Quote view
+ - If you visit a non-existing path e.g `http://localhost:3000/store` it will show an error page
+
+### Testing (React-JEST)
+
+Thanks to React integrated testing library user can simply run `npm test` from within the project's folder to execute all the tests.
 
 
 ## Author
