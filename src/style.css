@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
+  font-family: Nunito, sans-serif;
   background-image: url(./assets/math-back.jpg);
   background-position: center;
   background-repeat: no-repeat;

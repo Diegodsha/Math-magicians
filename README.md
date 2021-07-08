@@ -15,10 +15,10 @@
 </p>
 
 ## Sneak peak
-![Math-home](https://user-images.githubusercontent.com/70416006/124972294-c9c15300-dfef-11eb-837b-2c450929b993.png)
-![math-calc](https://user-images.githubusercontent.com/70416006/124972288-c8902600-dfef-11eb-9486-f052314a31b3.png)
-![math-quote](https://user-images.githubusercontent.com/70416006/124972283-c7f78f80-dfef-11eb-83e9-160659c84a53.png)
-![math-404](https://user-images.githubusercontent.com/70416006/124975141-4e61a080-dff3-11eb-9dd2-6de561373e4f.png)
+![math-home](https://user-images.githubusercontent.com/70416006/124996920-6a733b00-e00f-11eb-8b29-941bec774577.png)
+![math-calc](https://user-images.githubusercontent.com/70416006/124996916-69420e00-e00f-11eb-831e-86d298fb4be4.png)
+![mat-quote](https://user-images.githubusercontent.com/70416006/124996914-68a97780-e00f-11eb-9b3f-31c9b4c2576d.png)
+![math-error](https://user-images.githubusercontent.com/70416006/124996910-67784a80-e00f-11eb-8ba6-7e9749c5d25a.png)
 
 ## Built With
 
