@@ -21,25 +21,3 @@ exports[`Home Component Renders correctly home component 1`] = `
   </p>
 </div>
 `;
-
-exports[`Home Component Renders correctly home component in the Dom 1`] = `
-<div
-  className="sc-eCApnc moOtr container text-center"
->
-  <p
-    className="sc-hKFxyN LYQFs text-white display-2"
-  >
-    Welcome to Math Magicians!
-  </p>
-  <img
-    alt="welcome"
-    className="img-fluid"
-    src="welcome.jpg"
-  />
-  <p
-    className="sc-hKFxyN LYQFs text-white"
-  >
-    We are an enthusiastic team based in France that loves teaching and helping with all topics related to Mathematics. Our goal is that you start loving it as much as we do by providing efficient, fun to use and, beautifully designed web and mobile tools (free to use of course) that will help you through your learning path and will enhance your experience as a Mathematics lover.
-  </p>
-</div>
-`;
