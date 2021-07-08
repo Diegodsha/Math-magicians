@@ -9,7 +9,7 @@
    <a href="https://github.com/Diegodsha/Master-calculator/pulls">
   <img src="https://img.shields.io/github/issues-pr/Diegodsha/Master-calculator?style=for-the-badge"
        alt="Pull Requests"></a>
-   <a href="https://github.com/Diegodsha/Master-calculator/blob/feature/hooks/LICENSE">
+   <a href="https://github.com/Diegodsha/Master-calculator/blob/develop/LICENSE">
   <img src="https://img.shields.io/github/license/Diegodsha/Master-calculator?style=for-the-badge"
        alt="License"></a>
 </p>
@@ -82,4 +82,4 @@ Microverse
 
 ## License
 
-This project is [MIT]() licensed
+This project is [MIT](https://github.com/Diegodsha/Master-calculator/blob/develop/LICENSE) licensed
