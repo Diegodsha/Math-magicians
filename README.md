@@ -18,6 +18,7 @@
 ![Math-home](https://user-images.githubusercontent.com/70416006/124972294-c9c15300-dfef-11eb-837b-2c450929b993.png)
 ![math-calc](https://user-images.githubusercontent.com/70416006/124972288-c8902600-dfef-11eb-9486-f052314a31b3.png)
 ![math-quote](https://user-images.githubusercontent.com/70416006/124972283-c7f78f80-dfef-11eb-83e9-160659c84a53.png)
+![math-404](https://user-images.githubusercontent.com/70416006/124975141-4e61a080-dff3-11eb-9dd2-6de561373e4f.png)
 
 ## Built With
 
