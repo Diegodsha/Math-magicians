@@ -1,6 +1,6 @@
 # Math Magicians
 
->React website aimed to mathematics.
+>React website aimed at mathematics.
 
 <p align="center">
   <a href="https://github.com/Diegodsha/Master-calculator/issues">
@@ -33,7 +33,7 @@
 
 ### Description
 
-    React website aimed to mathematics with an integrated calculator that supports every basic arithmetic operation.
+    React website aimed at mathematics with an integrated calculator that supports every basic arithmetic operation.
 
 ## Live Demo
 
@@ -66,7 +66,7 @@ Visit [Calculator](https://master-calculator.herokuapp.com)
 
 ### Testing (React-JEST)
 
-Thanks to React integrated testing library user can simply run `npm test` from within the project's folder to execute all the tests.
+Thanks to React integrated testing library users can simply run `npm test` from within the project's folder to execute all the tests.
 
 
 ## Author
