@@ -1,28 +1,31 @@
-# Master Calculator
+# Math Magicians
 
->React calculator app that supports every basic arithmetic operation of a calculator.
+>React website aimed at mathematics.
 
 <p align="center">
-  <a href="https://github.com/Diegodsha/Master-calculator/issues">
-  <img src="https://img.shields.io/github/issues-raw/Diegodsha/Master-calculator?style=for-the-badge"
+  <a href="https://github.com/Diegodsha/Math-magicians/issues">
+  <img src="https://img.shields.io/github/issues-raw/Diegodsha/Math-magicians?style=for-the-badge"
        alt="Issues"></a>
-   <a href="https://github.com/Diegodsha/Master-calculator/pulls">
-  <img src="https://img.shields.io/github/issues-pr/Diegodsha/Master-calculator?style=for-the-badge"
+   <a href="https://github.com/Diegodsha/Math-magicians/pulls">
+  <img src="https://img.shields.io/github/issues-pr/Diegodsha/Math-magicians?style=for-the-badge"
        alt="Pull Requests"></a>
-   <a href="https://github.com/Diegodsha/Master-calculator/blob/develop/LICENSE">
-  <img src="https://img.shields.io/github/license/Diegodsha/Master-calculator?style=for-the-badge"
+   <a href="https://github.com/Diegodsha/Math-magicians/blob/develop/LICENSE">
+  <img src="https://img.shields.io/github/license/Diegodsha/Math-magicians?style=for-the-badge"
        alt="License"></a>
 </p>
 
-
-<img width="558" alt="calculator" src="https://user-images.githubusercontent.com/70416006/124183321-aa6d7780-da7d-11eb-8be5-4ace70a311a5.png">
+## Sneak peak
+![math-home](https://user-images.githubusercontent.com/70416006/124996920-6a733b00-e00f-11eb-8b29-941bec774577.png)
+![math-calc](https://user-images.githubusercontent.com/70416006/124996916-69420e00-e00f-11eb-831e-86d298fb4be4.png)
+![mat-quote](https://user-images.githubusercontent.com/70416006/124996914-68a97780-e00f-11eb-9b3f-31c9b4c2576d.png)
+![math-error](https://user-images.githubusercontent.com/70416006/124996910-67784a80-e00f-11eb-8ba6-7e9749c5d25a.png)
 
 ## Built With
 
 
 - Node.js
 - React
-- npm
+- Npm
 - Javascript ES6+
 - Big.js
 - Jest
@@ -30,11 +33,11 @@
 
 ### Description
 
-    Calculator built with react that supports every basic arithmetic operation.
+    React website aimed at mathematics with an integrated calculator that supports every basic arithmetic operation.
 
 ## Live Demo
 
-Visit [Calculator](https://master-calculator.herokuapp.com)
+Visit [Math-magicians](https://math-magic-react.herokuapp.com/)
 
 ## Prerequisites
 
@@ -55,7 +58,15 @@ Visit [Calculator](https://master-calculator.herokuapp.com)
 ### Usage
 
 - From within the project directory run `npm start` to start a local server in your web browser.
-- Visit `http://localhost:3000/`
+- Available Paths:
+ - Visit `http://localhost:3000/` for Home view
+ - Visit `http://localhost:3000/calculator` for Calculator view
+ - Visit `http://localhost:3000/quote` for Quote view
+ - If you visit a non-existing path e.g `http://localhost:3000/store` it will show an error page
+
+### Testing (React-JEST)
+
+Thanks to React integrated testing library users can simply run `npm test` from within the project's folder to execute all the tests.
 
 
 ## Author
